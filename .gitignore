@@ -1,0 +1,9 @@
+*.exe
+*.broguerec
+*.broguesave
+*.png
+BrogueHighScores.txt
+BrogueScoresArchive.txt
+BrogueSource\libtcod-*\*
+BrogueSource\obj\*
+SDL-*\*
