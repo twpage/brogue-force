@@ -4,6 +4,6 @@
 *.png
 BrogueHighScores.txt
 BrogueScoresArchive.txt
-BrogueSource\libtcod-*\*
-BrogueSource\obj\*
-SDL-*\*
+Brogue Source/libtcod-*/*
+Brogue Source/obj/*
+Brogue Source/SDL-*/*
