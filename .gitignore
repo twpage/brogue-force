@@ -2,8 +2,10 @@
 *.broguerec
 *.broguesave
 *.png
+*.dll
 BrogueHighScores.txt
 BrogueScoresArchive.txt
 Brogue Source/libtcod-*/*
 Brogue Source/obj/*
 Brogue Source/SDL-*/*
+

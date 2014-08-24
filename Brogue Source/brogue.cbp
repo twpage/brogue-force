@@ -63,9 +63,6 @@
 		<Unit filename="BrogueCode/MainMenu.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="BrogueCode/Mods.c">
-			<Option compilerVar="CC" />
-		</Unit>
 		<Unit filename="BrogueCode/Monsters.c">
 			<Option compilerVar="CC" />
 		</Unit>
