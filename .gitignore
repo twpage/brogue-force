@@ -3,9 +3,9 @@
 *.broguesave
 *.png
 *.dll
+Brogue Source/brogue.depend
 BrogueHighScores.txt
 BrogueScoresArchive.txt
 Brogue Source/libtcod-*/*
 Brogue Source/obj/*
 Brogue Source/SDL-*/*
-
