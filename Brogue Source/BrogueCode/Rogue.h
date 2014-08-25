@@ -31,11 +31,11 @@
 #define USE_UNICODE
 
 // version string -- no more than 16 bytes:
-#define BROGUE_VERSION_STRING "Archive Scores Mod v0.1 based on Brogue 1.7.4"
+#define BROGUE_VERSION_STRING "BrogueForce v0.2 based on Brogue 1.7.4"
 
 // debug macros -- define DEBUGGING as 1 to enable wizard mode.
 
-#define DEBUGGING						0
+#define DEBUGGING						1
 
 #define DEBUG							if (DEBUGGING)
 #define MONSTERS_ENABLED				(!DEBUGGING || 1) // Quest room monsters can be generated regardless.
@@ -808,6 +808,7 @@ enum wandKind {
 	WAND_PLENTY,
 	WAND_INVISIBILITY,
     WAND_EMPOWERMENT,
+    WAND_FORCE,
 	NUMBER_WAND_KINDS
 };
 
@@ -839,6 +840,7 @@ enum boltType {
 	BOLT_PLENTY,
 	BOLT_INVISIBILITY,
     BOLT_EMPOWERMENT,
+    BOLT_FORCE, //wand_of_force
 	BOLT_LIGHTNING,
 	BOLT_FIRE,
 	BOLT_POISON,
@@ -1737,6 +1739,7 @@ enum boltEffects {
     BE_PLENTY,
     BE_INVISIBILITY,
     BE_EMPOWERMENT,
+    BE_FORCE,//wand_of_force
     BE_DAMAGE,
     BE_POISON,
     BE_TUNNELING,
