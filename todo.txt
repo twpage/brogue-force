@@ -1,0 +1,14 @@
+# monkey_kong 0
+# wand_of_force 0
+# pot/scroll/charm reflection
+# pot/scroll/charm respiration
+# pot/scroll/charm protection
+# explosive dart 0
+# potion_of_might 0
+# potion_of_sickness 0
+# alter_of_id 0
+# shotgun 0
+# medusa 0
+# net 0
+# elemental 0
+# hammer 0
