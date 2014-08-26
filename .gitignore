@@ -4,7 +4,6 @@
 *.png
 *.dll
 Brogue Source/brogue.depend
-Brogue Source/brogue.layout
 BrogueHighScores.txt
 BrogueScoresArchive.txt
 Brogue Source/libtcod-*/*
