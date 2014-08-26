@@ -12,3 +12,4 @@
 # net 0
 # elemental 0
 # hammer 0
+# frozen monster/thaw mechanic
