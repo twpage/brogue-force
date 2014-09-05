@@ -31,7 +31,7 @@
 #define USE_UNICODE
 
 // version string -- no more than 16 bytes:
-#define BROGUE_VERSION_STRING "Archive Scores Mod v0.1 based on Brogue 1.7.4"
+#define BROGUE_VERSION_STRING "1.7.4_BF02"
 
 // debug macros -- define DEBUGGING as 1 to enable wizard mode.
 
