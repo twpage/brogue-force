@@ -42,17 +42,20 @@
 #define MENU_FLAME_DENOMINATOR			(100 + MENU_FLAME_RISE_SPEED + MENU_FLAME_SPREAD_SPEED)
 
 void drawMenuFlames(signed short flames[COLS][(ROWS + MENU_FLAME_ROW_PADDING)][3], unsigned char mask[COLS][ROWS]) {
-	short i, j, versionStringLength;
+	short i, j, versionStringLength, modStringLength;
 	color tempColor = {0};
 	const color *maskColor = &black;
     char dchar;
 
     versionStringLength = strLenWithoutEscapes(BROGUE_VERSION_STRING);
+    modStringLength = strLenWithoutEscapes(BROGUE_MOD_DESCRIPTION);
 
 	for (j=0; j<ROWS; j++) {
 		for (i=0; i<COLS; i++) {
             if (j == ROWS - 1 && i >= COLS - versionStringLength) {
                 dchar = BROGUE_VERSION_STRING[i - (COLS - versionStringLength)];
+            } else if (j == ROWS - 2 && i < modStringLength) {
+                dchar = BROGUE_MOD_DESCRIPTION[i];
             } else {
                 dchar = ' ';
             }
