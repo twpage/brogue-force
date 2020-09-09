@@ -14,3 +14,4 @@ Changes from "real" Brogue 1.7.4:
   * Had Amulet? (1 for yes, 0 for no)
   * Number of Lumenstones
   * Was Victory? (1 for yes, 0 for no)
+* Wand of Force (functions like a blast from Force runic weapons)
